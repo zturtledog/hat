@@ -22,10 +22,33 @@ switch (Deno.build.os) {
     break;
 }
 
-const dylib = Deno.dlopen("../../build/lib."+libSuffix, {
+const dylib = Deno.dlopen("D:/rusty programs/hat/target/debug/output.dll", {//"../../target/debug/output."+libSuffix
     // "add": { parameters: ["isize", "isize"], result: "isize" },
-
+    "init":{
+      parameters: ["pointer", "i32", "i32"], 
+      result: "void",
+      // nonblocking: true,
+    }
 });
+
+console.log(dylib.symbols)
+
+//main
+
+export function init(title, width, height) {
+  dylib.symbols.init(pfs(title),width,height);
+}
+
+//helper
+
+function pfs(s) {//pointer from string
+  return new TextEncoder().encode(s)
+}
+
+function sfp(p) {
+  return new Deno.UnsafePointerView(p)
+}
+
 
 /**
 error: linker `cc` not found

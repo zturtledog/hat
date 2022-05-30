@@ -1,3 +1,5 @@
+import { init } from "./wrap.js"
+
 console.log("Welcome to Hat");
 console.log(`
          .~J??J~                                       
@@ -37,5 +39,7 @@ YY - - -JG  - -?P
         ^^~5PPG5!?GGGY7?77!!!~!G5BJJ5J^~~~^^^^^        
 7?JYYY55PGGGGBGGGGGGGGBBBBBBGGGGBGBBGGGGGGGGGPPP55555YY
 `)
+
+init("hello",230,200)
 
 //
