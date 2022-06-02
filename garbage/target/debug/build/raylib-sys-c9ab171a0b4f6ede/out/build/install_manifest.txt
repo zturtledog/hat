@@ -1,9 +1,0 @@
-D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/lib/raylib.lib
-D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/include/raylib.h
-D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/include/rlgl.h
-D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/include/physac.h
-D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/include/raymath.h
-D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/include/raudio.h
-D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/lib/pkgconfig/raylib.pc
-D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/lib/cmake/raylib/raylib-config-version.cmake
-D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/lib/cmake/raylib/raylib-config.cmake
