@@ -1,42 +1,39 @@
 export function register(hat) {
-    let dlkey = {}
-    let rexil = []
+    let ool = opendll("./raylib",[
+        ["InitWindow", ["i32","i32","pointer"]],
+        ["SetTargetFPS",["i32"]],
+        ["WindowShouldClose",[],"isize"]
+    ])   
 
-    //register
+    hat.win = ool.auto
 
-    rgis("InitWindow", ["i32", "i32", "pointer"])
+    hat.win.initwindow = (width, height, title)=>{
+        ool.dylb.symbols.InitWindow(width,height,pfs(title))
+    }
+}
 
-    //helpers
-    function rgis(name, parms, rtrn, bl) {
-        dlkey[name] = {
-            parameters: parms,
-            result: rtrn || "void",
-            nonblocking: bl || !true,
-        }
-        rexil.push(name)
+function snme(x) {
+    let y = x.toLowerCase()
+
+    for (let i = 0; i < x.toLowerCase().length; i++) {
+        const e = x.toLowerCase().charAt(i);
+        
+        y = y.replace(e+e,e)
     }
 
-    //load
-    let libSuffix = "";
-    switch (Deno.build.os) {
-        case "windows":
-            libSuffix = "dll";
-            break;
-        case "darwin":
-            libSuffix = "dylib";
-            break;
-        case "linux":
-            libSuffix = "so";
-            break;
-    }
+    return y
+}
 
-    const dylib = Deno.dlopen("./raylib.dll", dlkey)
-
-    for (let i = 0; i < rexil.length; i++) {
-        hat[rexil[i].toLowerCase()] = dylib.symbols[rexil[i]]
-    }
-
-    return hat
+function pfs(s) {//pointer from string
+    return new TextEncoder().encode(s)
+}
+  
+function sfp(p) {
+    return new Deno.UnsafePointerView(p)
+}
+  
+function i8tb(i) {
+    return !!i;
 }
 
 //clamp

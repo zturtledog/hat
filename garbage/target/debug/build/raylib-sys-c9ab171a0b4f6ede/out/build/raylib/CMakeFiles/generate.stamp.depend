@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+D:/programs/cmake/share/cmake-3.23/Modules/CPack.cmake
+D:/programs/cmake/share/cmake-3.23/Modules/CPackComponent.cmake
+D:/programs/cmake/share/cmake-3.23/Modules/GNUInstallDirs.cmake
+D:/programs/cmake/share/cmake-3.23/Templates/CPackConfig.cmake.in
+D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/raylib/cmake/CompileDefinitions.cmake
+D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/raylib/cmake/GlfwImport.cmake
+D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/raylib/cmake/InstallConfigurations.cmake
+D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/raylib/cmake/JoinPaths.cmake
+D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/raylib/cmake/LibraryConfigurations.cmake
+D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/raylib/cmake/LibraryPathToLinkerFlags.cmake
+D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/raylib/cmake/PackConfigurations.cmake
+D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/raylib/cmake/PopulateConfigVariablesLocally.cmake
+D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/raylib/cmake/raylib-config-version.cmake
+D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/raylib/raylib.pc.in
+D:/rusty programs/hat/target/debug/build/raylib-sys-c9ab171a0b4f6ede/out/raylib/src/CMakeLists.txt

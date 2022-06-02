@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\rusty programs\hat\target\debug\build\raylib-sys-c9ab171a0b4f6ede\out\build\CMakeFiles\e27768c2a7b2d7f05c6f663114d6f149\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6A6523FC-A893-3B92-A579-6560B24A1397}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

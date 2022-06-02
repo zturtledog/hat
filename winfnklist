@@ -1,4 +1,4 @@
-void InitWindow(int width, int height, const char *title);              // Initialize window and OpenGL context
+// void InitWindow(int width, int height, const char *title);              // Initialize window and OpenGL context
 bool WindowShouldClose(void);                                           // Check if KEY_ESCAPE pressed or Close icon pressed
 void CloseWindow(void);                                                 // Close window and unload OpenGL context
 bool IsWindowReady(void);                                               // Check if window has been initialized successfully
@@ -91,7 +91,7 @@ Vector2 GetWorldToScreen2D(Vector2 position, Camera2D camera);          // Get t
 Vector2 GetScreenToWorld2D(Vector2 position, Camera2D camera);          // Get the world space position for a 2d camera screen space position
 
 // Timing-related functions
-void SetTargetFPS(int fps);                                             // Set target FPS (maximum)
+// void SetTargetFPS(int fps);                                             // Set target FPS (maximum)
 int GetFPS(void);                                                       // Get current FPS
 float GetFrameTime(void);                                               // Get time in seconds for last frame drawn (delta time)
 double GetTime(void);                                                   // Get elapsed time in seconds since InitWindow()
